@@ -1,0 +1,24 @@
+﻿@model WebApp_gym.Models.Student
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Student</title>
+</head>
+<body>
+    <div>
+        <label>Nombre: @Model.name <br /></label>
+        <label>Apellido: @Model.lastname <br /></label>
+        <label>Codigo: @Model.code <br /></label>
+        <label>Programa: @Model.career <br /></label>
+        <label>Activo: @Model.enabled <br /></label>
+        <label>Horario: @Model.calendar <br /></label>
+    </div>
+</body>
+</html>

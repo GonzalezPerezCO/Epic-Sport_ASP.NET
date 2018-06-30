@@ -26,5 +26,7 @@ namespace WebApp_gym.Controllers
 
             return View();
         }
+
+        
     }
 }
