@@ -195,10 +195,13 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Student\Student.cshtml" />
+    <Content Include="Views\EXStudent\EXStudent.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Controllers\ForAdmins\" />
+    <Folder Include="Controllers\ForSports\" />
+    <Folder Include="Controllers\ForStudents\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
