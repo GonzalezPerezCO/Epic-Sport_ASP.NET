@@ -5,13 +5,8 @@ using System.Web;
 
 namespace WebApp_gym.Models
 {
-    public class Student
+    public class Student: Person
     {
-        public String Name { get; set; }
-        public String Lastname { get; set; }
-        public int CodeS { get; set; }
-        public String Career { get; set; }
-        public Boolean Enabled { get; set; }
-        public String[][] CalendarS { get; set; }
+        
     }
 }
