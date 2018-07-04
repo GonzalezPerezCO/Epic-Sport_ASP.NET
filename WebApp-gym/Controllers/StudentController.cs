@@ -13,11 +13,11 @@ namespace WebApp_gym.Controllers
         public ActionResult Student()
         {
             Student student = new Student();
-            student.name = "Manuel Sergio";
-            student.lastname = "Perez Espitia";
-            student.code = 2095112;
-            student.career = "Ing Sistemas";
-            student.enabled = true;
+            student.Name = "Manuel Sergio";
+            student.Lastname = "Perez Espitia";
+            student.CodeS = 2095112;
+            student.Career = "Ing Sistemas";
+            student.Enabled = true;
 
             String[] list1 = new String[2] { "Lunes", "8" };
             String[] list2 = new String[2] { "Jueves", "4"};
@@ -26,7 +26,7 @@ namespace WebApp_gym.Controllers
             String[][] lists = new String[][] { list1, list2, list3 };
 
 
-            student.calendar = lists;
+            student.CalendarS = lists;
 
 
             return View(student);
