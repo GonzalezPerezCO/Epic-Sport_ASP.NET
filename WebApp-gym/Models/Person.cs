@@ -11,24 +11,15 @@ namespace WebApp_gym.Models
         {
         }
 
-        public Person(string name, string lastname, int codeS, string career, bool enabled, string[][] calendarS)
+        public Person(string name, string lastname)
         {
             Name = name;
             Lastname = lastname;
-            CodeS = codeS;
-            Career = career;
-
-            Enabled = enabled;
-            CalendarS = calendarS;
         }
 
-        public String Name { get; set; }
-        public String Lastname { get; set; }
-        public int CodeS { get; set; }
-        public String Career { get; set; }
-        public int Semester { get; set; }
-        public Boolean Enabled { get; set; }
-        public String[][] CalendarS { get; set; }
+        public string Name { get; set; }
+        public string Lastname { get; set; }
+        
     }
 
 
